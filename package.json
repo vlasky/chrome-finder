@@ -1,7 +1,7 @@
 {
-  "name": "chrome-finder",
+  "name": "@vlasky/chrome-finder",
   "version": "1.0.7",
-  "description": "find a executable chrome in your system automatic",
+  "description": "Search for any installed Google Chrome/Chromium executables and return the path to the first one. Fork of chrome-finder by gwuhaolin.",
   "keywords": [
     "chrome",
     "find",
@@ -11,16 +11,16 @@
   "engines": {
     "node": ">= 6.0.0"
   },
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:gwuhaolin/chrome-finder.git"
-  },
+  "repository": "https://github.com/vlasky/chrome-finder",
   "scripts": {
     "test": "mocha test"
   },
-  "author": "gwuhaolin",
+  "author": "Vlad Lasky <github@vladlasky.com> (https://github.com/vlasky)",
+  "contributors": [
+    "gwuhaolin (https://github.com/gwuhaolin)"
+  ],
   "license": "ISC",
   "devDependencies": {
-    "mocha": "^6.2.1"
+    "mocha": "^10.2.0"
   }
 }
