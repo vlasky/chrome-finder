@@ -1,6 +1,6 @@
 {
   "name": "@vlasky/chrome-finder",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Search for any installed Google Chrome/Chromium executables and return the path to the first one. Fork of chrome-finder by gwuhaolin.",
   "keywords": [
     "chrome",
